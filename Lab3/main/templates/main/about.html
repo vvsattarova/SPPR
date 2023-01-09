@@ -1,0 +1,26 @@
+{% extends 'main/base.html' %}
+
+{% block title %}
+Рекомендации для пользователя
+{% endblock %}
+
+{% block content %}
+    <h1>Рекомендации для пользователя</h1>
+    {% if predicted %}
+            <div class="alert alert-warning mt-2">
+                <p>{{ predicted.pred1 }}</p>
+                <p>{{ predicted.pred2 }}</p>
+                <p>{{ predicted.pred3 }}</p>
+                <p>{{ predicted.pred4 }}</p>
+                <p>{{ predicted.pred5 }}</p>
+                <p>{{ predicted.pred6 }}</p>
+            </div>
+    {% else %}
+        <p>У нас нет записей!</p>
+    {% endif %}
+{% endblock %}
+
+
+
+
+
