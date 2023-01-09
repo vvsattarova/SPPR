@@ -1,0 +1,3 @@
+matrix.txt, transporttasks.txt - data
+Matrixgame.py, TransportGame2.py - tasks
+Done for all variants
